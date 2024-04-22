@@ -32,3 +32,9 @@ export async function POST(req: any) {
     return NextResponse.json({ message: "An error occurred", success: false });
   }
 }
+
+export async function GET() {
+  await ConnectDB();
+  const data = await FileModel.find();
+  return NextResponse.json({ data });
+}
