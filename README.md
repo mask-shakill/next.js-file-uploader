@@ -1,3 +1,31 @@
+# File Upload in Next.js (No Library)
+
+A simple and lightweight Next.js project that demonstrates how to handle file uploads without using any external libraries. This project uses built-in HTML form elements and Next.js API routes to process file uploads on the server-side, offering a customizable and straightforward solution for handling file uploads in web applications.
+
+## Features
+
+- Upload files without using external libraries
+- Simple integration with Next.js API routes
+- Customizable file upload functionality
+- Supports both frontend and backend handling of file uploads
+
+## Technologies Used
+
+- **Next.js** - React framework for building the application
+- **HTML5** - For file input field and form handling
+- **Node.js (Next.js API Routes)** - Server-side handling of file uploads
+
+## Setup & Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/file-upload-without-library-nextjs.git
+   cd next.js-file-uploader
+   npm install
+
+
+
 ## File Upload and store  without third-party library
 
 ### Upload/page.tsx
